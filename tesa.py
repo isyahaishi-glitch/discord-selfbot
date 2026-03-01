@@ -4,6 +4,9 @@ import asyncio
 import sys
 import json
 import msg
+from dotenv import load_dotenv
+
+load_dotend()
 
 if len(sys.argv) < 2:
     print("Error: JSON config tidak diberikan.")
@@ -161,4 +164,5 @@ async def send_loop1():
         print("[Cooldown] block too fast, waiting 20s...")
         await asyncio.sleep(20)
 # token
+
 bot.run("",bot = False)  
