@@ -4,7 +4,9 @@ import asyncio
 import sys
 import json
 import msg
+from dotenv import load_dotenv
 
+load_dotend()
 if len(sys.argv) < 2:
     print("Error: JSON config tidak diberikan.")
     sys.exit(1)
